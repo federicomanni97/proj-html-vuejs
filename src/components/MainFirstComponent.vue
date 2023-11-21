@@ -25,6 +25,9 @@
                 </div>
             </div>
         </div>
+        <div class="paddingt">
+            <button class="boxshadow colorlightred text-uppercase p-3 fw-bold">Brows All Games <i class="fa-solid fa-circle-play"></i></button>
+        </div>
     </div>
 </template>
 
@@ -63,5 +66,14 @@ img{
 .vsimg{
     width: 30px;
     height: 30px;
+}
+
+.paddingt{
+    padding: 60px 0px;
+}
+
+.boxshadow{
+    box-shadow: 3px 5px var(--color-lightred);
+    border-style: none;
 }
 </style>

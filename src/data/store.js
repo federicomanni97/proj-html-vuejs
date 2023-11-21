@@ -28,6 +28,11 @@ export const store = reactive({
         catLogo: '/public/images/teamsm-10.png',
         redDragonLogo: '/public/images/teamsm-11.png',
         monkeyLogo: '/public/images/teamsm-12.png',
+    },
+    socialLogos: {
+        vimeoLogo: '/public/images/social-1.png',
+        youtubeLogo: '/public/images/social-2.png',
+        twitchLogo: '/public/images/social-3.png',
     }
 })
 

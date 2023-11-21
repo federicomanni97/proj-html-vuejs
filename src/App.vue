@@ -5,6 +5,7 @@
       </div>
         <MainFirstComponent/>
         <MainComponent/>
+        <MainMatchesSchedule/>
 </template>
 
 
@@ -13,12 +14,14 @@ import HeaderComponent from './components/HeaderComponent.vue';
 import JumbotronComponent from './components/JumbotronComponent.vue';
 import MainFirstComponent from './components/MainFirstComponent.vue';
 import MainComponent from './components/MainComponent.vue'
+import MainMatchesSchedule from './components/MainMatchesSchedule.vue';
   export default {
     components: {
       HeaderComponent,
       JumbotronComponent,
       MainFirstComponent,
       MainComponent,
+      MainMatchesSchedule
     }
   }
 </script>

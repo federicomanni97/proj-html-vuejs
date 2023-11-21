@@ -1,5 +1,6 @@
 @use './partials/variables' as *;
 @import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,400;0,500;0,600;0,700;0,800;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap');
 @import 'bootstrap/scss/bootstrap';
 
 $fa-font-path: '../webfonts';
@@ -8,6 +9,6 @@ $fa-font-path: '../webfonts';
 @import '@fortawesome/fontawesome-free/scss/regular.scss';
 @import '@fortawesome/fontawesome-free/scss/brands.scss';
 
-*{
+body{
     font-family: 'Barlow', sans-serif;
 }

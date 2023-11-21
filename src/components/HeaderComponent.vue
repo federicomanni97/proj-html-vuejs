@@ -1,10 +1,10 @@
 <template>
         <div class="navstyle text-light pt-3">
             <div class="container d-flex justify-content-between">
-                    <div>
+                    <div class="">
                         <ul class="d-flex align-items-center list-unstyled">
-                            <li><i class="fa-solid fa-user"></i> +800-123-4567 6587</li>
-                            <li><i class="fa-solid fa-location-dot"></i> Beverley, New York 224 USA</li>
+                            <li><i class="fa-solid fa-user px-2"></i> +800-123-4567 6587</li>
+                            <li><i class="fa-solid fa-location-dot px-2"></i> Beverley, New York 224 USA</li>
                         </ul>
                     </div>
                     <div>
@@ -29,7 +29,7 @@
                             <a class="nav-link" href="#">{{ navs }}</a>
                         </li>
                         <li class="text-danger bg-light borderbutton1 p-3">
-                            <a class="nav-link disabled" href="#"><i class="fa-solid fa-user"></i> Login</a>
+                            <a class="nav-link disabled" href="#"><i class="fa-solid fa-user"></i> Log in</a>
                         </li>
                         <li class="bgbutton borderbutton2 p-3">
                             <a class="nav-link disabled" href="#"><i class="fa-solid fa-users"></i> Sign Up</a>

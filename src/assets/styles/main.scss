@@ -1,5 +1,6 @@
-@import 'bootstrap/scss/bootstrap';
 @use './partials/variables' as *;
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;700;800&display=swap');
+@import 'bootstrap/scss/bootstrap';
 
 $fa-font-path: '../webfonts';
 @import '@fortawesome/fontawesome-free/scss/fontawesome.scss';
@@ -7,4 +8,6 @@ $fa-font-path: '../webfonts';
 @import '@fortawesome/fontawesome-free/scss/regular.scss';
 @import '@fortawesome/fontawesome-free/scss/brands.scss';
 
-@import 'bootstrap/scss/bootstrap';
+*{
+    font-family: 'Mulish', sans-serif;
+}

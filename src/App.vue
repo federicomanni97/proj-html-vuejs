@@ -1,10 +1,5 @@
 <template>
-  <body>
-    <div class="text-light">
       <HeaderComponent/>
-    </div>
-    <h1>ciao</h1>
-  </body>
 </template>
 
 

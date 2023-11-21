@@ -7,10 +7,11 @@ export const store = reactive({
         'Blog +',
         'Contact'
     ],
-    navButtons: [
-        '<i class="fa-solid fa-user"></i> Login',
-        '<i class="fa-solid fa-users"></i> Sign Up'
-    ]
+    whoweareIcons: {
+        firstIcon: 'images/icon-1.png',
+        secondIcon: 'images/icon-2.png',
+        thirdIcon: 'images/icon-3.png',
+    }
 
 })
 

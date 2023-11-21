@@ -3,16 +3,19 @@
       <div class="bgJumbotron">
         <JumbotronComponent/>
       </div>
+        <MainComponent/>
 </template>
 
 
 <script>
 import HeaderComponent from './components/HeaderComponent.vue';
 import JumbotronComponent from './components/JumbotronComponent.vue';
+import MainComponent from './components/MainComponent.vue'
   export default {
     components: {
       HeaderComponent,
       JumbotronComponent,
+      MainComponent
     }
   }
 </script>
@@ -22,7 +25,7 @@ import JumbotronComponent from './components/JumbotronComponent.vue';
 .bgJumbotron{
         background-image: url('/images/bg.jpg');
         background-repeat: no-repeat;
-        background-position: center;
+        background-position: bottom;
         height: 50rem;
     }
 

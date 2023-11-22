@@ -5,9 +5,9 @@
             <h1 class="p-2 text-uppercase">Explore Our Products</h1>
         </div>
         <div class="row fw-bold">
-            <div class="col-3 borderlightblue g-1" v-for="shirts in store.shopArray">
-                <img class="w-100" :src="shirts.shirt" alt="">
-                <div class="p-3">
+            <div class="col-3 cardwidth m-1 bg-lightblue " v-for="shirts in store.shopArray">
+                <img class="" :src="shirts.shirt" alt="">
+                <div class="p-2">
                     <h4 class="text-uppercase">{{ shirts.nameProduct }}</h4>
                     <p class="fs-5"> {{ shirts.price }}</p>
                 </div>
@@ -21,11 +21,10 @@ import { store } from '../data/store'
 export default {
     data(){
         
-
         return {
             store
         }
-    }
+    },
 }
 </script>
 
@@ -38,6 +37,14 @@ export default {
 }
 .borderlightblue{
     border: 10px solid var(--color-lightblue);
+}
+
+.cardwidth{
+    width: 320px;
+}
+
+.bg-lightblue{
+    background-color: var(--color-lightblue);
 }
 
 </style>

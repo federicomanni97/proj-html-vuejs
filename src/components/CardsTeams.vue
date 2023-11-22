@@ -7,7 +7,7 @@
             </div>
             <div class="row w-100 mb-5">
                 <div class="text-light d-flex">
-                    <div class="col-2 width20 cardsbg  d-flex flex-column flex-wrap justify-content-center align-items-center" v-for="logos in store.slidesCards">  
+                    <div class="col-2 position-relative width20 cardsbg d-flex flex-column flex-wrap justify-content-center align-items-center" :class="logos.color"  v-for="logos in store.slidesCards">  
                         <img :src="logos.logo" alt="">
                         <p class="text-uppercase fw-bold p-3 fs-4">{{ logos.name }}</p>
                         <div class="d-flex p-2">
@@ -39,12 +39,27 @@
 <script>
 import { store } from '../data/store'
 export default {
-    setup () {
+    data() {
         
         return {
             store
         }
-    }
+    },
+    // methods: { 
+    //     backgroundCard(){
+    //         if (store.slidesCards.color === 'blue') {
+    //         return 'bg-blue'
+    //         } else if (store.slidesCards.color === 'yellow') {
+    //             return 'bg-yellow'
+    //         } else if (store.slidesCards.color === 'purple') {
+    //             return 'bg-purple'
+    //         } else if (store.slidesCards.color === 'orange') {
+    //             return 'bg-orange'
+    //         } else if (store.slidesCards.color === 'green') {
+    //             return 'bg-green'
+    //         }
+    //     }
+    // },
 }
 </script>
 
@@ -84,5 +99,24 @@ img{
 .width20{
     width: calc(20% - 10px);
     margin: 0 10px;
+}
+.green{
+    background-color: rgb(20, 240, 57);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.blue{
+    background-color: rgba(73, 255, 255, 0.247)!important;
+}
+.yellow{
+    background-color: rgb(255, 255, 70)!important;
+}
+.purple{
+    background-color: rgb(230, 11, 230)!important;
+}
+.orange{
+    background-color: orangered!important;
+    z-index: 100;
 }
 </style>

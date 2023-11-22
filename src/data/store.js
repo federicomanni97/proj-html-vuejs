@@ -64,7 +64,7 @@ export const store = reactive({
         {
             logo: '/images/teamsm-5.png',
             name: 'Shark Team',
-            color: 'blue'
+            color: 'blue',
         },
         {
             logo: '/images/team-2.png',
@@ -111,6 +111,30 @@ export const store = reactive({
             shirt: '/public/images/02 (1).jpg',
             nameProduct: 'Blue t-shirt',
             price: '380$'
+        }
+    ],
+    liveStreaming1: [
+        {
+            image: '/public/images/01.jpg',
+            title: '2022 Lvp Superliga Orange Summer'
+        },
+        {
+            image: '/public/images/livestreaming02.jpg',
+            title: 'Lorem Ipsum Dolor Sit Amet'
+        }
+    ],
+    liveStreaming2: [
+        {
+            image: '/public/images/livestreaming01.jpg',
+            title: 'Can i add my local bank'
+        },
+        {
+            image: '/public/images/livestreaming002.jpg',
+            title: 'Lorem Ipsum Dolor Sit.'
+        },
+        {
+            image: '/public/images/05.jpg',
+            title: 'Where can i redeem'
         }
     ]
 })

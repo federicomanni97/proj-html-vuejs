@@ -7,6 +7,7 @@
         <MainComponent/>
         <MainMatchesSchedule/>
         <CardsTeams/>
+        <MainStreamingSection/>
         <MainShirtsComponent/>
 </template>
 
@@ -18,6 +19,7 @@ import MainFirstComponent from './components/MainFirstComponent.vue';
 import MainComponent from './components/MainComponent.vue'
 import MainMatchesSchedule from './components/MainMatchesSchedule.vue';
 import CardsTeams from './components/CardsTeams.vue';
+import MainStreamingSection from './components/MainStreamingSection.vue';
 import MainShirtsComponent from './components/MainShirtsComponent.vue';
 export default {
     components: {
@@ -27,6 +29,7 @@ export default {
       MainComponent,
       MainMatchesSchedule,
       CardsTeams,
+      MainStreamingSection,
       MainShirtsComponent,
     }
   }

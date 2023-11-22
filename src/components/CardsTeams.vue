@@ -20,7 +20,7 @@
         <div class="container">
             <div class="card2bg my-5 d-flex text-light text-uppercase">
                 <div class="heightCard row">
-                    <div class="col-6 align-items-center">
+                    <div class="col-6 px-5 d-flex flex-column justify-content-center">
                         <span>Let's play together</span>
                         <h2>Join <span class="colorlightred">gamer</span> esports to become next pro gamer today!</h2>
                         <p>Distinctively provide acces mutfuncto users whereas transparent proceses somes ncentivize eficient functionalities rather than an extensible archtectur services and cross</p>

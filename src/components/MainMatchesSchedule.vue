@@ -1,10 +1,10 @@
 <template>
-    <div class="container text-light mainsections fw-bold my-5">
+    <div class="container text-light mainsections my-5">
         <div class="text-center">
-            <span class="fs-4 colorlightred">Anywhere, Anytime</span>
+            <span class="text-uppercase colorlightred">Anywhere, Anytime</span>
             <h1 class="text-uppercase fw-bold py-3">All Matches Schedule</h1>
         </div>
-        <div class="row align-items-center">
+        <div class="row align-items-center m-2">
             <div class="bglightred py-2 d-flex justify-content-between fs-4">
                 <div>
                     <span>2 GROUP 32 PLAYERS</span>
@@ -32,10 +32,6 @@
             </div>
         </div>
         
-
-        <div class="text-center py-5">
-            <button class="boxshadow border-0 colorlightred text-uppercase p-3 fw-bold">Brows All Games <i class="fa-solid fa-circle-play"></i></button>
-        </div>
         <div class="row">
             <div class="col-6 g-5 align-items-center" v-for="logos in store.matchesLogos">
                 <div class="bglightred d-flex justify-content-between p-3 fs-4">
@@ -69,7 +65,10 @@
                     <div>
                         <img class="" :src="logos.logo2" alt="">
                     </div>
-                </div>
+                </div>        
+            </div>
+            <div class="text-center py-5">
+                <button class="boxshadow border-0 colorlightred text-uppercase p-3 fw-bold">Brows All Matches<i class="fa-solid fa-circle-play"></i></button>
             </div>
         </div>
     </div>
@@ -95,6 +94,9 @@ export default {
 
 .bglightred{
     background-color: var(--color-lightred);
+}
+.mainsections{
+    font-family: "Oswald", sans-serif;
 }
 
 img{

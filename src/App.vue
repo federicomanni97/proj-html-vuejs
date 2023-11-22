@@ -6,6 +6,7 @@
         <MainFirstComponent/>
         <MainComponent/>
         <MainMatchesSchedule/>
+        <CardsTeams/>
 </template>
 
 
@@ -15,13 +16,17 @@ import JumbotronComponent from './components/JumbotronComponent.vue';
 import MainFirstComponent from './components/MainFirstComponent.vue';
 import MainComponent from './components/MainComponent.vue'
 import MainMatchesSchedule from './components/MainMatchesSchedule.vue';
-  export default {
+import CardsTeams from './components/CardsTeams.vue';
+import MainShirtsComponent from './components/MainShirtsComponent.vue';
+export default {
     components: {
       HeaderComponent,
       JumbotronComponent,
       MainFirstComponent,
       MainComponent,
-      MainMatchesSchedule
+      MainMatchesSchedule,
+      CardsTeams,
+      MainShirtsComponent,
     }
   }
 </script>
@@ -32,7 +37,7 @@ import MainMatchesSchedule from './components/MainMatchesSchedule.vue';
         background-image: url('/images/bg.jpg');
         background-repeat: no-repeat;
         background-position: bottom;
-        height: 50rem;
-    }
+        width: 100%;
+      }
 
 </style>

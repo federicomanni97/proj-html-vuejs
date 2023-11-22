@@ -59,5 +59,31 @@ export const store = reactive({
             logo1: '/images/teamsm-11.png',
             logo2: '/images/teamsm-12.png',
         },
+    ],
+    slidesCards: [
+        {
+            logo: '/images/teamsm-5.png',
+            name: 'Shark Team'
+        },
+        {
+            logo: '/images/team-2.png',
+            name: 'Viking Team'
+        },
+        {
+            logo: '/images/teamsm-1.png',
+            name: 'Dragon Team'
+        },
+        {
+            logo: '/images/teamsm-3.png',
+            name: 'Frogs Team'
+        },
+        {
+            logo: '/images/teamsm-8.png',
+            name: 'Witch Team'
+        },
+        {
+            logo: '/images/teamsm-4.png',
+            name: 'Monkey Team'
+        }
     ]
 })

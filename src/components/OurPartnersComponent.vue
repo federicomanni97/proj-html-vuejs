@@ -3,7 +3,7 @@
         <div class="container text-light mainsections text-center">
             <div class="m-5">
                 <span class="colorlightred">We our partners</span>
-                <h1>Become a partner of gamer</h1>
+                <h1 class="text-uppercase">Become a partner of gamer</h1>
             </div>
             <div class="row justify-content-center m-5">
                 <div class="col-2" v-for="partners in store.partnersArray1">

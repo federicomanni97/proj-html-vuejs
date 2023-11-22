@@ -10,8 +10,8 @@
         <MainStreamingSection/>
         <MainShirtsComponent/>
         <OurPartnersComponent/>
+        <MainMostPopularPosts/>
 </template>
-
 
 <script>
 import HeaderComponent from './components/HeaderComponent.vue';
@@ -23,6 +23,7 @@ import CardsTeams from './components/CardsTeams.vue';
 import MainStreamingSection from './components/MainStreamingSection.vue';
 import MainShirtsComponent from './components/MainShirtsComponent.vue';
 import OurPartnersComponent from './components/OurPartnersComponent.vue';
+import MainMostPopularPosts from './components/MainMostPopularPosts.vue';
 export default {
     components: {
       HeaderComponent,
@@ -33,7 +34,8 @@ export default {
       CardsTeams,
       MainStreamingSection,
       MainShirtsComponent,
-      OurPartnersComponent
+      OurPartnersComponent,
+      MainMostPopularPosts
     }
   }
 </script>

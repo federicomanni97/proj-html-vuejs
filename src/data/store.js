@@ -18,7 +18,7 @@ export const store = reactive({
         vikingLogo: '/images/team-2.png',
         dragonLogo: '/images/teamsm-1.png',
         wolvesLogo: '/images/teamsm-2.png',
-        frogsLogo: '/images/teamsm-3.png',
+        frogsLogo: '/images/teammd-3.png',
         monkeyhatLogo: '/images/teamsm-4.png',        
         sharkLogo: '/images/teamsm-5.png',
         lionLogo: '/images/teamsm-6.png',
@@ -28,6 +28,8 @@ export const store = reactive({
         catLogo: '/images/teamsm-10.png',
         redDragonLogo: '/images/teamsm-11.png',
         monkeyLogo: '/images/teamsm-12.png',
+        tigersLogo: '/images/teammd-4.png',
+        sharkLogo: '/images/teammd-5.png'
     },
     socialLogos: [ 
         '/images/social-1.png',
@@ -164,6 +166,21 @@ export const store = reactive({
         {
             image: '/public/images/08.png'
         }
+    ],
+    PopularBlogPosts: [
+        {
+            image:'/public/images/01.jpg',
+            title:'DISTINCTIVE REDEFINE RESOURCE MAXIMIZING FOR',
+            creator:'Admin',
+            date:'01 January 2022',
+            paragraph:'Uniquely conceptuaze visionary process ariwith tactical ramatica centered qualitys vectoris with outofthebox scenario is ompelling uthoritatively generate front-end niches after one',
+        },
+        {
+            image:'/public/images/02.jpg',
+            title:'REDEFINE RESOURCE MAXIMIZING FOR DISTINCTIVE',
+            creator:'Admin',
+            date:'01 January 2022',
+            paragraph:'Uniquely conceptuaze visionary process ariwith tactical ramatica centered qualitys vectoris with outofthebox scenario is ompelling uthoritatively generate front-end niches after one',
+        }
     ]
-    
 })

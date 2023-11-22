@@ -1,7 +1,7 @@
 <template>
     <div class=" container text-light mainjumbo">
         <div class="row">
-            <div class=" col-12">
+            <div class=" col-12 margintop">
                 <div class="col-6">
                     <h1 class="text-uppercase">Online Game</h1>
                     <h3 class="text-uppercase">Genuine Money Transaction</h3>
@@ -48,6 +48,10 @@ button{
 .boxshadow{
     box-shadow: 3px 5px white;
     border-style: none;
+}
+
+.margintop{
+    margin-top: 220px;
 }
 
 </style>

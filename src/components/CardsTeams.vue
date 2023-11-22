@@ -7,12 +7,15 @@
             </div>
             <div class="row w-100 mb-5">
                 <div class="text-light d-flex">
-                    <div class="col-2 position-relative width20 cardsbg d-flex flex-column flex-wrap justify-content-center align-items-center" :class="logos.color"  v-for="logos in store.slidesCards">  
-                        <img :src="logos.logo" alt="">
-                        <p class="text-uppercase fw-bold p-3 fs-4">{{ logos.name }}</p>
-                        <div class="d-flex p-2">
-                            <div v-for="socialLogos in store.socialLogos">
-                                <img class="p-1 smallwidth" :src="socialLogos" alt="">
+                    <div class="col-2 position-relative width20 cardsbg " v-for="logos in store.slidesCards">  
+                        <div class="overlay" :class="logos.color"></div>
+                        <div class="highindex d-flex flex-column flex-wrap justify-content-center h-100 align-items-center">
+                            <img :src="logos.logo" alt="">
+                            <p class="text-uppercase fw-bold p-3 fs-4">{{ logos.name }}</p>
+                            <div class="d-flex p-2">
+                                <div v-for="socialLogos in store.socialLogos">
+                                    <img class="p-1 smallwidth" :src="socialLogos" alt="">
+                                </div>
                             </div>
                         </div>
                     </div>  
@@ -45,21 +48,6 @@ export default {
             store
         }
     },
-    // methods: { 
-    //     backgroundCard(){
-    //         if (store.slidesCards.color === 'blue') {
-    //         return 'bg-blue'
-    //         } else if (store.slidesCards.color === 'yellow') {
-    //             return 'bg-yellow'
-    //         } else if (store.slidesCards.color === 'purple') {
-    //             return 'bg-purple'
-    //         } else if (store.slidesCards.color === 'orange') {
-    //             return 'bg-orange'
-    //         } else if (store.slidesCards.color === 'green') {
-    //             return 'bg-green'
-    //         }
-    //     }
-    // },
 }
 </script>
 
@@ -96,27 +84,40 @@ img{
     background-size: cover;
 }
 
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.2;
+}
+
+.highindex{
+    position: relative;
+    z-index: 1;
+    width: 100%;
+
+}
+
 .width20{
     width: calc(20% - 10px);
     margin: 0 10px;
 }
 .green{
-    background-color: rgb(20, 240, 57);
-    position: absolute;
-    top: 0;
-    left: 0;
+    background-color: rgb(4, 90, 18);
+    
 }
 .blue{
-    background-color: rgba(73, 255, 255, 0.247)!important;
+    background-color: rgb(5, 9, 255);
 }
 .yellow{
-    background-color: rgb(255, 255, 70)!important;
+    background-color: rgb(255, 255, 70);
 }
 .purple{
-    background-color: rgb(230, 11, 230)!important;
+    background-color: rgb(143, 7, 170);
 }
 .orange{
-    background-color: orangered!important;
-    z-index: 100;
+    background-color: orangered;
 }
 </style>

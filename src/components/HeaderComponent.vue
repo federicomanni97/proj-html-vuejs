@@ -1,4 +1,5 @@
 <template>
+    <div class="position-fixed w-100 opacity-75 highindex">
         <div class="navstyle text-light pt-3">
             <div class="container d-flex justify-content-between">
                     <div class="">
@@ -38,6 +39,7 @@
                 </div>
             </div>
         </nav>
+    </div>
 </template>
 
 <script>
@@ -73,6 +75,9 @@ li{
 .borderbutton2{
     border-right: 2px solid white;
     border-bottom: 2px solid white;
+}
+.highindex{
+    z-index: 1000;
 }
 
 </style>

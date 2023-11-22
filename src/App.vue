@@ -41,6 +41,7 @@ export default {
         background-image: url('/images/bg.jpg');
         background-repeat: no-repeat;
         background-position: bottom;
+        background-size: cover;
         width: 100%;
       }
 

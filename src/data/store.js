@@ -85,5 +85,27 @@ export const store = reactive({
             logo: '/images/teamsm-4.png',
             name: 'Monkey Team'
         }
+    ],
+    shopArray: [
+        {
+            shirt: '/public/images/01 (1).jpg',
+            nameProduct: 'Blue t-shirt',
+            price: '380$'
+        },
+        {
+            shirt: '/public/images/02 (1).jpg',
+            nameProduct: 'Green t-shirt',
+            price: '380$'
+        },
+        {
+            shirt: '/public/images/01 (1).jpg',
+            nameProduct: 'Blue t-shirt',
+            price: '380$'
+        },
+        {
+            shirt: '/public/images/02 (1).jpg',
+            nameProduct: 'Blue t-shirt',
+            price: '380$'
+        }
     ]
 })

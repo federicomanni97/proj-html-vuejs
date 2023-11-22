@@ -7,6 +7,7 @@
         <MainComponent/>
         <MainMatchesSchedule/>
         <CardsTeams/>
+        <MainShirtsComponent/>
 </template>
 
 

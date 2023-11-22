@@ -2,23 +2,23 @@
     <div class="container text-light mainsections text-center">
         <span class="fs-4 colorlightred">Today's</span>
         <h1 class="text-uppercase fw-bold py-3">Our Game Collection</h1>
-        <div class="row justify-content-center align-items-center">
+        <div class="row  justify-content-center my-5 align-items-center">
             <div class="col-4">
-                <div class="mx-2 bglightblue p-4">
+                <div class="mx-2 d-flex align-items-center justify-content-between bglightblue p-5">
                     <img :src="store.smallLogos.ninjaLogo" alt="">
                     <img class="vsimg" :src="store.smallLogos.vsLogo" alt="">
                     <img :src="store.smallLogos.vikingLogo" alt="">
                 </div>
             </div>
             <div class="col-4">
-                <div class="mx-2 bglightblue p-4">
+                <div class="mx-2 d-flex align-items-center justify-content-between bglightblue p-5">
                     <img :src="store.smallLogos.monkeyhatLogo" alt="">
                     <img class="vsimg" :src="store.smallLogos.vsLogo" alt="">
                     <img :src="store.smallLogos.frogsLogo" alt="">
                 </div>
             </div>
             <div class="col-4">
-                <div class="mx-2 bglightblue p-4">
+                <div class="mx-2 d-flex align-items-center justify-content-between bglightblue p-5">
                     <img :src="store.smallLogos.wolvesLogo" alt="">
                     <img class="vsimg" :src="store.smallLogos.vsLogo" alt="">
                     <img :src="store.smallLogos.dragonLogo" alt="">
@@ -59,8 +59,8 @@ export default {
 }
 
 img{
-    width: 100px;
-    height: 100px;
+    width: 105px;
+    height: 105px;
 }
 
 .vsimg{

@@ -1,6 +1,6 @@
 <template>
-    <div class="container text-light text-center mainsections ">
-        <div class="p-5">
+    <div class="container text-light text-center mainsections my-4">
+        <div class="p-3">
             <span class="colorlightred">Gamer T-shirt's</span>
             <h1 class="p-2 text-uppercase">Explore Our Products</h1>
         </div>

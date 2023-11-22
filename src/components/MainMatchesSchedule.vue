@@ -1,4 +1,5 @@
 <template>
+  <div class="bgsection p-3">  
     <div class="container text-light mainsections my-5">
         <div class="text-center">
             <span class="text-uppercase colorlightred">Anywhere, Anytime</span>
@@ -72,6 +73,7 @@
             </div>
         </div>
     </div>
+  </div>  
 </template>
 
 <script>
@@ -91,6 +93,9 @@ export default {
 .colorlightred{
     color: var(--color-lightred);
 }
+.bgsection{
+    background-image: url('/public/images/bg (1).jpg');
+}
 
 .bglightred{
     background-color: var(--color-lightred);
@@ -98,12 +103,6 @@ export default {
 .mainsections{
     font-family: "Oswald", sans-serif;
 }
-
-img{
-    width: 90px;
-    height: 90px;
-}
-
 .mainsections{
     font-family: "Oswald", sans-serif;
 }

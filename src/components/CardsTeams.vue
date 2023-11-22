@@ -1,20 +1,22 @@
 <template>
-    <div class="mainsections">
-        <div class="text-uppercase text-light text-center">
-            <span class="colorlightred">Our team players</span>
-            <h1>Meet our squad players</h1>
-        </div>
-        <div class="row w-100" >
-            <div class="text-light d-flex">
-                <div class="col-2 cardsbg m-2 d-flex flex-column flex-wrap justify-content-center align-items-center" v-for="logos in store.slidesCards">  
-                    <img :src="logos.logo" alt="">
-                    <p class="text-uppercase fw-bold p-3 fs-4">{{ logos.name }}</p>
-                    <div class="d-flex p-2">
-                        <div v-for="socialLogos in store.socialLogos">
-                            <img class="p-1 smallwidth" :src="socialLogos" alt="">
+    <div class="mainsections py-5">
+        <div class="py-5">
+            <div class="text-uppercase p-5 text-light text-center">
+                <span class="colorlightred ">Our team players</span>
+                <h1 class="fw-bold">Meet our squad players</h1>
+            </div>
+            <div class="row w-100 mb-5">
+                <div class="text-light d-flex">
+                    <div class="col-2 width20 cardsbg  d-flex flex-column flex-wrap justify-content-center align-items-center" v-for="logos in store.slidesCards">  
+                        <img :src="logos.logo" alt="">
+                        <p class="text-uppercase fw-bold p-3 fs-4">{{ logos.name }}</p>
+                        <div class="d-flex p-2">
+                            <div v-for="socialLogos in store.socialLogos">
+                                <img class="p-1 smallwidth" :src="socialLogos" alt="">
+                            </div>
                         </div>
-                    </div>
-                </div>  
+                    </div>  
+                </div>
             </div>
         </div>
         <div class="container">
@@ -77,5 +79,10 @@ img{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.width20{
+    width: calc(20% - 10px);
+    margin: 0 10px;
 }
 </style>

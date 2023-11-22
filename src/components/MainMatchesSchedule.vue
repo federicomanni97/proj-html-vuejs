@@ -52,9 +52,9 @@
                             <div class="text-black fs-6">
                                 <h4 class="">Call of Duty Tournament</h4>
                             </div>
-                            <div class="text-secondary d-flex">
+                            <div class="text-secondary align-items-center d-flex">
                                     <span>30 April 2022</span>
-                                    <span><td>|</td></span>
+                                    <span class="px-3"><td>|</td></span>
                                     <span>Time: 08:30PM</span>
                             </div>
                             <div class="d-flex p-2">

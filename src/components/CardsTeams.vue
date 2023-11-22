@@ -5,19 +5,33 @@
                 <span class="colorlightred ">Our team players</span>
                 <h1 class="pt-3 fw-bold">Meet our squad players</h1>
             </div>
-            <div class="row w-100 mb-5 overflow-hidden">
+            <div class="mb-5">
                 <div class="text-light d-flex">
-                    <div class="col-2 position-relative width20 cardsbg " v-for="logos in store.slidesCards">  
-                        <div class="overlay" :class="logos.color"></div>
-                        <div class="highindex d-flex flex-column flex-wrap justify-content-center h-100 align-items-center">
-                            <img :src="logos.logo" alt="">
-                            <p class="text-uppercase fw-bold p-3 fs-3">{{ logos.name }}</p>
-                            <div class="d-flex p-2">
-                                <div v-for="socialLogos in store.socialLogos">
-                                    <img class="p-1 smallwidth" :src="socialLogos" alt="">
-                                </div>
-                            </div>
-                        </div>
+                        <swiper
+                        :autoplay="{
+                                    delay: 2500,
+                                    disableOnInteraction: false,
+                                    }"
+                            :slidesPerView="5"
+                            :spaceBetween="10"
+                            :loop="true"
+                            :modules="modules"
+                            class="mySwiper"
+                        >
+                            <swiper-slide class="position-relative cardsbg" v-for="logos in store.slidesCards">
+                                <div class="overlay" :class="logos.color"></div>
+                                <div class="highindex d-flex flex-column flex-wrap justify-content-center h-100 align-items-center">
+                                    <img :src="logos.logo" alt="">
+                                    <p class="text-uppercase fw-bold p-3 fs-3">{{ logos.name }}</p>
+                                    <div class="d-flex p-2">
+                                        <div v-for="socialLogos in store.socialLogos">
+                                            <img class="p-1 smallwidth" :src="socialLogos" alt="">
+                                        </div>
+                                    </div>
+                                </div>    
+                            </swiper-slide>
+                        </swiper>
+                        
                     </div>  
                 </div>
             </div>
@@ -36,17 +50,26 @@
                 </div>    
             </div>
         </div>
-    </div>
 </template>
+
+
+
 
 <script>
 import { store } from '../data/store'
+import { Swiper, SwiperSlide } from 'swiper/vue';
+import { Autoplay } from 'swiper/modules';
+import 'swiper/css';
 export default {
+    components: {
+        Swiper,
+        SwiperSlide,
+    },
     data() {
-        
         return {
-            store
-        }
+            store,
+            modules: [Autoplay],
+        };
     },
 }
 </script>

@@ -1,6 +1,6 @@
 <template>
     <div class="container text-light mainsections text-center">
-        <span class="fs-4 colorlightred">Today's</span>
+        <span class="colorlightred text-uppercase">Today's</span>
         <h1 class="text-uppercase fw-bold py-3">Our Game Collection</h1>
         <div class="row  justify-content-center my-5 align-items-center">
             <div class="col-4">

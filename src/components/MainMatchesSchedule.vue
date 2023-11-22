@@ -54,6 +54,7 @@
                             </div>
                             <div class="text-secondary d-flex">
                                     <span>30 April 2022</span>
+                                    <span><td>|</td></span>
                                     <span>Time: 08:30PM</span>
                             </div>
                             <div class="d-flex p-2">

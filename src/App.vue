@@ -9,6 +9,7 @@
         <CardsTeams/>
         <MainStreamingSection/>
         <MainShirtsComponent/>
+        <OurPartnersComponent/>
 </template>
 
 
@@ -21,6 +22,7 @@ import MainMatchesSchedule from './components/MainMatchesSchedule.vue';
 import CardsTeams from './components/CardsTeams.vue';
 import MainStreamingSection from './components/MainStreamingSection.vue';
 import MainShirtsComponent from './components/MainShirtsComponent.vue';
+import OurPartnersComponent from './components/OurPartnersComponent.vue';
 export default {
     components: {
       HeaderComponent,
@@ -31,6 +33,7 @@ export default {
       CardsTeams,
       MainStreamingSection,
       MainShirtsComponent,
+      OurPartnersComponent
     }
   }
 </script>

@@ -136,5 +136,34 @@ export const store = reactive({
             image: '/public/images/05.jpg',
             title: 'Where can i redeem'
         }
+    ],
+    partnersArray1: [
+        {
+            image: '/public/images/07.png'
+        },
+        {
+            image: '/public/images/08.png'
+        },
+        {
+            image: '/public/images/06.png'
+        },
+        {
+            image: '/public/images/04.png'
+        },
+        {
+            image: '/public/images/05.png'
+        }
+    ],
+    partnersArray2: [
+        {
+            image: '/public/images/06.png'
+        },
+        {
+            image: '/public/images/07.png'
+        },
+        {
+            image: '/public/images/08.png'
+        }
     ]
+    
 })

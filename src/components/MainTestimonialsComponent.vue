@@ -3,7 +3,7 @@
         <div class="container text-light mainsections">
             <div class="text-center ">
                 <span class="colorlightred">Our Recent News</span>
-                <h1>Our most popular testimonial posts</h1>
+                <h1 class="text-uppercase">Our most popular testimonial posts</h1>
             </div>
             <swiper
             :autoplay="{
@@ -49,7 +49,7 @@
                                     </div>    
                                 </div>    
                                 <div>
-                                    <img class="logowidth" :src="TestimonialPosts.team" alt="">
+                                    <img class="flip-card logowidth" :src="TestimonialPosts.team" alt="">
                                 </div>
                             </div>
                             <div class="py-4">

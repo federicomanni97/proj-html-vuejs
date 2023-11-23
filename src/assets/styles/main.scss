@@ -13,3 +13,11 @@ body{
     font-family: 'Barlow', sans-serif;
     background-color: var(--color-darkblue);
 }
+
+.flip-card{
+    &:hover{
+        cursor: pointer;
+        transform: rotateY(360deg);
+        transition: all 0.8s linear;
+    }
+}

@@ -2,7 +2,7 @@
     <div>
         <swiper
             :autoplay="{
-                        delay: 3500,
+                        delay: 4000,
                         disableOnInteraction: false,
                         }"
                 :slidesPerView="1"

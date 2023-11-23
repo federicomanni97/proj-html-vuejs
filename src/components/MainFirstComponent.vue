@@ -5,23 +5,23 @@
         <div class="row justify-content-center my-5 align-items-center">
             <div class="col-4">
                 <div class="mx-2 d-flex align-items-center justify-content-between bglightblue p-5">
-                    <img :src="store.smallLogos.tigersLogo" alt="">
+                    <img class="flip-card" :src="store.smallLogos.tigersLogo" alt="">
                     <img class="vsimg" :src="store.smallLogos.vsLogo" alt="">
-                    <img :src="store.smallLogos.vikingLogo" alt="">
+                    <img class="flip-card" :src="store.smallLogos.vikingLogo" alt="">
                 </div>
             </div>
             <div class="col-4">
                 <div class="mx-2 d-flex align-items-center justify-content-between bglightblue p-5">
-                    <img :src="store.smallLogos.monkeyhatLogo" alt="">
+                    <img class="flip-card" :src="store.smallLogos.monkeyhatLogo" alt="">
                     <img class="vsimg" :src="store.smallLogos.vsLogo" alt="">
-                    <img :src="store.smallLogos.frogsLogo" alt="">
+                    <img class="flip-card" :src="store.smallLogos.frogsLogo" alt="">
                 </div>
             </div>
             <div class="col-4">
                 <div class="mx-2 d-flex align-items-center justify-content-between bglightblue p-5">
-                    <img :src="store.smallLogos.witchLogo" alt="">
+                    <img class="flip-card" :src="store.smallLogos.witchLogo" alt="">
                     <img class="vsimg" :src="store.smallLogos.vsLogo" alt="">
-                    <img :src="store.smallLogos.dragonLogo" alt="">
+                    <img class="flip-card" :src="store.smallLogos.dragonLogo" alt="">
                 </div>
             </div>
         </div>
@@ -76,4 +76,6 @@ img{
     box-shadow: 3px 5px var(--color-lightred);
     border-style: none;
 }
+
+
 </style>

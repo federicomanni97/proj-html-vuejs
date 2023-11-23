@@ -20,9 +20,9 @@
                     <p class="text-secondary">30 April 2022</p>
                 </div>
                 <div class="mx-2 p-4">
-                    <img class="px-2" :src="store.smallLogos.lionLogo" alt="">
+                    <img class="flip-card px-2" :src="store.smallLogos.lionLogo" alt="">
                     <img class="vsimg smallwidth" :src="store.smallLogos.vsLogo" alt="">
-                    <img class="px-2" :src="store.smallLogos.skullLogo" alt="">
+                    <img class="flip-card px-2" :src="store.smallLogos.skullLogo" alt="">
                 </div>
                 <div v-for="logos in store.socialLogos">
                     <img class="smallwidth" :src="logos" alt="">
@@ -45,7 +45,7 @@
                 </div>
                 <div class="gx-5 d-flex align-items-center p-3 justify-content-between bg-white">    
                     <div class="">
-                        <img class="" :src="logos.logo1" alt="">
+                        <img class="flip-card" :src="logos.logo1" alt="">
                     </div>
                     <div class="">
                         <div class="d-flex flex-column align-items-center">
@@ -59,13 +59,13 @@
                             </div>
                             <div class="d-flex p-2">
                                 <div v-for="socialLogos in store.socialLogos">
-                                    <img class="p-1 smallwidth" :src="socialLogos" alt="">
+                                    <img class="flip-card p-1 smallwidth" :src="socialLogos" alt="">
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div>
-                        <img class="" :src="logos.logo2" alt="">
+                        <img class="flip-card" :src="logos.logo2" alt="">
                     </div>
                 </div>        
             </div>

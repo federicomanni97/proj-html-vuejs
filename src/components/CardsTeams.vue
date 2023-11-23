@@ -21,7 +21,7 @@
                             <swiper-slide class="position-relative cardsbg" v-for="logos in store.slidesCards">
                                 <div class="overlay" :class="logos.color"></div>
                                 <div class="highindex d-flex flex-column flex-wrap justify-content-center h-100 align-items-center">
-                                    <img :src="logos.logo" alt="">
+                                    <img class="flip-card" :src="logos.logo" alt="">
                                     <p class="text-uppercase fw-bold p-3 fs-3">{{ logos.name }}</p>
                                     <div class="d-flex p-2">
                                         <div v-for="socialLogos in store.socialLogos">

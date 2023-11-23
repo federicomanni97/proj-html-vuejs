@@ -2,7 +2,7 @@
     <div class="bg-footer paddingb footerfont">
         <div class="container text-light">
             <div class="row p-2">
-                <div class="col-4 py-3 borderfooter" v-for="infos in store.footerContactInfos">
+                <div class="col-4 py-4 borderfooter" v-for="infos in store.footerContactInfos">
                     <div class="d-flex align-items-center">
                         <div class="">
                             <img class="p-1" :src="infos.image" alt="">
@@ -44,7 +44,7 @@
                         </div>
                     </div>
                     <div class="py-5">
-                        <button class="boxshadow colorlightred text-uppercase border-0 p-3 fw-bold">Your Email<i class="fa-solid fa-circle-play"></i></button>
+                        <button class="boxshadow colorlightred text-uppercase border-0 p-3 fw-bold">Send Message<i class="fa-solid p-1 fa-circle-play"></i></button>
                     </div>
                 </div>
             </div>

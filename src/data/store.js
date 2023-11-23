@@ -1,6 +1,10 @@
 import { info } from 'sass';
 import {reactive} from 'vue';
 export const store = reactive({
+    backgroundsJumbotron: [
+        'bgJumbotron1',
+        'bgJumbotron2'
+    ],
     navArray: [
         'Home',
         'Features +',

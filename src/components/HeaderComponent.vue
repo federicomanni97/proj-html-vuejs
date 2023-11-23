@@ -1,5 +1,5 @@
 <template>
-    <div class="position-fixed w-100 opacity-75 highindex">
+    <div class="position-fixed w-100 opacityheader highindex">
         <div class="navstyle text-light pt-3">
             <div class="container d-flex justify-content-between">
                     <div class="">
@@ -25,7 +25,7 @@
                     <img src="/public/images/logo.png" alt="Logo">
                 </div>
                 <div>
-                    <ul class="d-flex list-unstyled text-light align-items-center">
+                    <ul class="d-flex list-unstyled fw-bold text-light align-items-center">
                         <li class="" v-for="navs in store.navArray">
                             <a class="nav-link" href="#">{{ navs }}</a>
                         </li>
@@ -64,6 +64,9 @@ export default {
 
 .bgbutton{
     background-color: var(--color-lightred);
+}
+.opacityheader{
+    opacity: 0.9;
 }
 
 li{

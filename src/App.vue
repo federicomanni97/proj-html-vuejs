@@ -1,8 +1,6 @@
 <template>
-      <HeaderComponent/>
-      <div class="bgJumbotron">
+        <HeaderComponent/>
         <JumbotronComponent/>
-      </div>
         <MainFirstComponent/>
         <MainComponent/>
         <MainMatchesSchedule/>
@@ -48,12 +46,5 @@ export default {
 
 <style lang="scss" scoped>
 @use './assets/styles/partials/variables' as *;
-.bgJumbotron{
-        background-image: url('/images/bg.jpg');
-        background-repeat: no-repeat;
-        background-position: bottom;
-        background-size: cover;
-        width: 100%;
-      }
 
 </style>

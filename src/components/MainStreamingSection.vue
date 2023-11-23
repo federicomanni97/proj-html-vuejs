@@ -9,6 +9,9 @@
             <div class=" col-6" v-for="images in store.liveStreaming1">
                 <div class="streamimg">
                     <img class="borderblue" :src="images.image" alt="">
+                    <div class="playfont">
+                        <span class=""><i class="fa-solid fa-circle-play"></i></span>
+                    </div>
                     <div class="streamtext p-4">
                         <button class="bglightred my-2 text-light text-uppercase border-0 p-2 fw-bold">Join Us Today <i class="fa-solid fa-circle-play"></i></button>
                         <h4 class="text-uppercase">{{ images.title }}</h4>
@@ -18,6 +21,9 @@
             <div class="col-4" v-for="images2 in store.liveStreaming2">
                 <div class="streamimg">
                     <img class="borderblue" :src="images2.image" alt="">
+                    <div class="playfont">
+                        <span class=""><i class="fa-solid fa-circle-play"></i></span>
+                    </div>
                     <div class="streamtext p-4">
                         <button class="bglightred my-2 text-light text-uppercase border-0 p-2 fw-bold">Join Us Today <i class="fa-solid fa-circle-play"></i></button>
                         <h4 class="text-uppercase">{{ images2.title }}</h4>
@@ -47,6 +53,14 @@ export default {
 }
 .colorlightred{
     color: var(--color-lightred);
+}
+
+.playfont{
+    font-size: 70px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .bglightred{

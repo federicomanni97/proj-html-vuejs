@@ -36,7 +36,7 @@
             </div>
         </div>
         <div class="container">
-            <div class="card2bg my-5 d-flex text-light text-uppercase">
+            <div class="mainsections card2bg my-5 d-flex text-light text-uppercase">
                 <div class="heightCard row">
                     <div class="col-6 px-5 d-flex flex-column justify-content-center">
                         <span>Let's play together</span>

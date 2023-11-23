@@ -24,8 +24,10 @@
                     <img class="vsimg smallwidth" :src="store.smallLogos.vsLogo" alt="">
                     <img class="flip-card px-2" :src="store.smallLogos.skullLogo" alt="">
                 </div>
-                <div v-for="logos in store.socialLogos">
-                    <img class="smallwidth" :src="logos" alt="">
+                <div class="d-flex">
+                    <div class="px-1" v-for="logos in store.socialLogos">
+                        <img class="smallwidth" :src="logos" alt="">
+                    </div>
                 </div>
                 <div class="paddingt">
                     <button class="bglightred text-light text-uppercase border-0 p-3 fw-bold">Join Us Today <i class="fa-solid fa-circle-play"></i></button>

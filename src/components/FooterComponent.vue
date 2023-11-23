@@ -2,7 +2,7 @@
     <div class="bg-footer paddingb footerfont">
         <div class="container text-light">
             <div class="row p-2">
-                <div class="col-4" v-for="infos in store.footerContactInfos">
+                <div class="col-4 py-3 borderfooter" v-for="infos in store.footerContactInfos">
                     <div class="d-flex align-items-center">
                         <div class="">
                             <img class="p-1" :src="infos.image" alt="">
@@ -101,6 +101,11 @@ input{
 ::placeholder {
   color: white;
   opacity: 1;
+}
+
+.borderfooter{
+    border: 1px solid rgba(128, 128, 128, 0.479);
+
 }
 
 </style>

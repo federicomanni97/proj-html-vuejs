@@ -11,6 +11,8 @@
         <MainShirtsComponent/>
         <OurPartnersComponent/>
         <MainMostPopularPosts/>
+        <MainTestimonialsComponent/>
+        <FooterComponent/>
 </template>
 
 <script>
@@ -24,6 +26,8 @@ import MainStreamingSection from './components/MainStreamingSection.vue';
 import MainShirtsComponent from './components/MainShirtsComponent.vue';
 import OurPartnersComponent from './components/OurPartnersComponent.vue';
 import MainMostPopularPosts from './components/MainMostPopularPosts.vue';
+import MainTestimonialsComponent from './components/MainTestimonialsComponent.vue';
+import FooterComponent from './components/FooterComponent.vue';
 export default {
     components: {
       HeaderComponent,
@@ -35,7 +39,9 @@ export default {
       MainStreamingSection,
       MainShirtsComponent,
       OurPartnersComponent,
-      MainMostPopularPosts
+      MainMostPopularPosts,
+      MainTestimonialsComponent,
+      FooterComponent
     }
   }
 </script>

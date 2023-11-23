@@ -2,7 +2,7 @@
     <div class="container text-light mainsections text-center">
         <span class="colorlightred text-uppercase">Today's</span>
         <h1 class="text-uppercase fw-bold py-3">Our Game Collection</h1>
-        <div class="row  justify-content-center my-5 align-items-center">
+        <div class="row justify-content-center my-5 align-items-center">
             <div class="col-4">
                 <div class="mx-2 d-flex align-items-center justify-content-between bglightblue p-5">
                     <img :src="store.smallLogos.tigersLogo" alt="">

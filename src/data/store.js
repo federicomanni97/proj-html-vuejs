@@ -1,3 +1,4 @@
+import { info } from 'sass';
 import {reactive} from 'vue';
 export const store = reactive({
     navArray: [
@@ -181,6 +182,62 @@ export const store = reactive({
             creator:'Admin',
             date:'01 January 2022',
             paragraph:'Uniquely conceptuaze visionary process ariwith tactical ramatica centered qualitys vectoris with outofthebox scenario is ompelling uthoritatively generate front-end niches after one',
+        }
+    ],
+    PopularTestimonials: [
+        {
+            userImage: '/public/images/01 (2).jpg',
+            name: 'Madley Pondor',
+            profession: 'UI Designer',
+            team: '/public/images/01 (3).png',
+            review: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae tortor bibendum nunc blandit tristique. Etiam porttitor rutrum efficitur. Aenean.',
+        },
+        {
+            userImage: '/public/images/02 (2).jpg',
+            name: 'Oliver Beddows',
+            profession: 'UI Designer',
+            team: '/public/images/06.png',
+            review: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae tortor bibendum nunc blandit tristique. Etiam porttitor rutrum efficitur. Aenean.',
+        }
+    ],
+    footerContactInfos: [
+        {
+            image: '/public/images/01 (4).png',
+            info: 'Phone Number:',
+            infoDate: ' +88012 345 678 912'
+        },
+        {
+            image: '/public/images/02 (4).png',
+            info: 'Email:',
+            infoDate: 'youremail@gmail.com'
+        },
+        {
+            image: '/public/images/03 (4).png',
+            info: 'Address:',
+            infoDate: '30 North West New York 240'
+        },
+    ],
+    footerLeftSide: [
+        {
+            logo: '/public/images/logo.png',
+            paragraph: 'Upropriate brand economca sound technolog after covalent technology enable prospective wastng markets whereas propriate and brand economca sound technolog'
+        }
+    ],
+    footerMiddleSide: [
+        {
+            advLogo: '/public/images/01 (4).jpg',
+            title: 'Free Poker Game',
+            details: 'Poker: $230'
+        },
+        {
+            advLogo: '/public/images/02 (3).jpg',
+            title: 'Club Poker Game',
+            details: 'Poker: $290'
+        },
+        {
+            advLogo: '/public/images/03 (3).jpg',
+            title: 'Royal Poker Game',
+            details: 'Poker: $330'
         }
     ]
 })

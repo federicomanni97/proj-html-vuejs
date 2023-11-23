@@ -30,8 +30,7 @@
                                     </div>
                                 </div>    
                             </swiper-slide>
-                        </swiper>
-                        
+                        </swiper>                      
                     </div>  
                 </div>
             </div>
